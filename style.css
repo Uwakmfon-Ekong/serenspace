@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+.who-we-serve {
+  text-align: center;
+  padding: 50px;
+}
+
+.who-we-serve h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: black;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  border: 1.9px solid #80205a;
+  border-radius: 40px;
+  padding: 0 30px 20px 30px;
+  width: 33%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.card h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: black;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.get-started {
+  background-color: transparent;
+  border: 1.9px solid #80205a;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #80205a;
+  align-self: flex-start;
+}
+
+.get-started:hover {
+  background-color: #80205a;
+  color: #fff;
+}
+
+.left-next-button,
+.right-next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-arrow,
+.next-arrow {
+  background-color: #80205a;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+  background-color: #611946;
+}
+
+.left-next-button {
+  position: absolute;
+  left: -20px;
+}
+
+.right-next-button {
+  position: absolute;
+  right: -20px;
+}
+
+.seren-space {
+  background-image: url(images/hero.svg);
+  padding: 50px 20px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.write-up {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .write-up {
+    width: 35%; /* Set width to 35% for larger screens */
+  }
+}
+
+.text-content {
+  margin-bottom: 20px;
+}
+
+.image-content {
+  width: 60%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .image-content {
+    width: 60%; /* Adjust based on your preference */
+    text-align: right;
+  }
+}
+
+.therapy-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flexContainer {
+  display: flex;
+  gap:20px;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.progression {
+  border: 2px solid #00000066;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #161010;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #161010;
+}
+
+.step-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #80205a;
+}
+
+.step-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.assessment {
+  text-align: center;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: #161010;
+}
